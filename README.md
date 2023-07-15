@@ -12,5 +12,7 @@ need Python 3.5 or higher to run ih2torrent.
 
 You can use pip to install ih2torrent: `pip3 install win_ih2torrent`
 
+Please note this is a fork of @elektito/ih2torrent and made so just for the convenience of myself and others
+
 [1]: http://www.bittorrent.org/beps/bep_0005.html
 [2]: http://www.bittorrent.org/beps/bep_0009.html
