@@ -5,7 +5,7 @@ win_ih2torrent
 magnet URI. It uses BitTorrent [DHT][1] and the [metadata protocol][2]
 to find peers for the torrent and obtain its metadata.
 
-`For windows devices only`
+`For windows devices only. It is a drop in replacement for ih2torrent`
 
 In order to get the dependencies inside a virtualenv, run `make`. You
 need Python 3.5 or higher to run ih2torrent.

@@ -31,18 +31,18 @@ with open('requirements.txt') as f:
     requirements = [line.strip() for line in f]
 
 setup(
-    name = 'ih2torrent',
+    name = 'win_ih2torrent',
     py_modules = ['ih2torrent', 'version'],
     install_requires = requirements,
     version = __version__,
-    description = 'Convert a torrent infohash or magnet URI to a .torrent file using DHT and metadata protocol. Asyncio based.',
+    description = 'Convert a torrent infohash or magnet URI to a .torrent file using DHT and metadata protocol. Asyncio based for Windows devices.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    author = 'Mostafa Razavi',
+    author = 'Mr Developer X',
     license = "GPL",
-    author_email = 'mostafa@sepent.com',
-    url = 'https://github.com/elektito/ih2torrent',
-    download_url = 'https://github.com/elektito/ih2torrent/tarball/' + __version__,
+    author_email = '139059229+Mr-Developer-X@users.noreply.github.com',
+    url = 'https://github.com/Mr-Developer-X/win_ih2torrent',
+    download_url = 'https://github.com/Mr-Developer-X/win_ih2torrent/tarball/' + __version__,
     keywords = ['bittorrent', 'torrent', 'infohash', 'magnet', 'dht', 'metadata', 'metainfo', 'asyncio'],
     classifiers = [
         "Programming Language :: Python :: 3"
